@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mmrf
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:1a705562e4888fc756c55e1c3e7928f3550f1ff52338339c36f78df2f04c1287
+      - image: quay.io/redhat-appstudio/user-workload@sha256:38c606d3569e0f2f9ba203fdfa538bd12984e620c5f52c430eb8489bd1066a88
         name: my-nodejs
         ports:
         - containerPort: 3001
